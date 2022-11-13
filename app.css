@@ -29,7 +29,7 @@ p{
     border-radius: 2px;
 }
 
-.btn-no{
+#btn-no{
     background-color: coral;
     border-color: coral;
     color: azure;
