@@ -8,13 +8,13 @@ let btnSi = document.getElementById("btn-si");
 let btnNo = document.getElementById("btn-no");
 let divConquistador = document.getElementsByClassName("modo_conquistador")[0];
 
-btnNo.addEventListener('mouseenter', function(e) {moverPosicionRandom(e.target)})
+btnNo.addEventListener('mouseenter', function(e) {moverPosicionRandom(e.target) });
 
 btnSi.addEventListener('click', function(e) {
     alert('Sabía que dirías que sí 😉❤️');
 
     divConquistador.style.display = 'block';
-    const cancion = new Audio('img\\modo_hot.mp3');
+    const cancion = new Audio('img\modo_hot.mp3');
     cancion.play();
 });
 
