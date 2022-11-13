@@ -13,7 +13,7 @@ btnNo.addEventListener('mouseenter', function(e) {moverPosicionRandom(e.target)}
 btnSi.addEventListener('click', function(e) {
     alert('Sabía que dirías que sí 😉❤️');
 
-    divConquistador.style.display = 'absolute';
+    divConquistador.style.display = 'block';
     const cancion = new Audio('img\\modo_hot.mp3');
     cancion.play();
 });
