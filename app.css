@@ -6,12 +6,16 @@ h1{
     color: blueviolet;
 }
 
+p{
+    color: blueviolet;
+}
+
 .modo_cristobal_colon{
     height: 2000px;
     position: absolute;
     display: none;
     width: 100%;
-    background-color: red;
+    background-color: azure;
     z-index: 1000;
 }
 
