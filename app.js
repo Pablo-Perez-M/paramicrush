@@ -10,7 +10,7 @@ let divConquistador = document.getElementsByClassName("modo_conquistador")[0]
 
 btnNo.addEventListener('mouseenter', function(e) {moverPosicionRandom(e.target)})
 
-btnSi.addEventListener('click', function(e){
+btnSi.addEventListener('click', function(e) {
     alert('Sabía que dirías que sí 😉❤️');
 
     divConquistador.style.display = 'block';
