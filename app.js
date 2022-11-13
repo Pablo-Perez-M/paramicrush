@@ -11,10 +11,10 @@ let divModoCristobalColon = document.getElementsByClassName("modo_cristobal_colo
 btnNo.addEventListener('mouseenter', function(e) {moverPosicionRandom(e.target)})
 
 btnSi.addEventListener('click', function(e){
-    alert('Sabía que dirías que sí 😉🧡');
+    alert('Sabía que dirías que sí 😉❤️');
 
     divModoCristobalColon.style.display = 'block';
     const cancion = new Audio('img\\modo_hot.mp3');
-    cancio.play();
+    cancion.play();
 });
 
