@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'espregunta'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FF3D52B560E041D1A06935175AD57694 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CDED5DA30D2A407FB0A7A23206408AE6 }}
           package: .
