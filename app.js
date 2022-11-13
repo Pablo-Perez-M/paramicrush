@@ -4,8 +4,8 @@ function moverPosicionRandom(elem){
     elem.style.left = Math.random() * (window.innerWidth - elem.offsetWidth) + 'px';
 }
 
-let btnSi = document.getElementById("btn-si")
-let btnNo = document.getElementById("btn-no")
+let btnSi = document.getElementById("btn-si");
+let btnNo = document.getElementById("btn-no");
 let divModoCristobalColon = document.getElementsByClassName("modo_cristobal_colon")[0]
 
 btnNo.addEventListener('mouseenter', function(e) {moverPosicionRandom(e.target)})
