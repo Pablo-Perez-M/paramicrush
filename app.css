@@ -1,14 +1,8 @@
-button:hover {
-    cursor: pointer;
-}
+button:hover { cursor: pointer; }
 
-h1{
-    color: blueviolet;
-}
+h1{ color: blueviolet; }
 
-p{
-    color: blueviolet;
-}
+p{ color: blueviolet; }
 
 .modo_conquistador{
     height: 2000px;
